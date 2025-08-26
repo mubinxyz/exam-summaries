@@ -1,0 +1,7 @@
+defaults:
+  - scope:
+      path: ""           # all files in repo
+      type: "pages"      # all pages
+    values:
+      lang: "fa"
+      layout: "default"
