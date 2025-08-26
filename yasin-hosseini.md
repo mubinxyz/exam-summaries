@@ -2,6 +2,7 @@
 layout: default
 title: "جامعه‌شناسی سید یاسین حسینی"
 lang: fa
+dir: rtl
 ---
 
 [بازگشت به خانه](index.md)
