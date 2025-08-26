@@ -1,8 +1,6 @@
 ---
 layout: default
 title: "آموزش و پرورش فراگیر جبار صالح"
-lang: fa
-dir: rtl
 ---
 
 [← بازگشت به خانه](index.md)
