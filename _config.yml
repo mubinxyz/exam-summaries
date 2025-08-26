@@ -1,0 +1,14 @@
+title: "خلاصه‌ها"
+theme: minima
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+      lang: fa
+
+# Custom CSS
+sass:
+  style: compressed
