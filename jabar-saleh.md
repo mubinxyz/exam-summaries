@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "آموزش و پرورش فراگیر جبار صالح"
+lang: fa
+permalink: /jabar-saleh/
 ---
 
 [← بازگشت به خانه](index.md)

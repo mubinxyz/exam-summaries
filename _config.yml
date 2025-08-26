@@ -1,15 +1,12 @@
 title: "سایت من"
-description: "مجموعه‌ای از خلاصه‌ها و مطالب فارسی"
-baseurl: ""
+baseurl: ""   # <-- set to "/REPO-NAME" if this is a project site
 url: ""
 permalink: pretty
 
 markdown: kramdown
 kramdown:
   input: GFM
-  hard_wrap: false
   parse_block_html: true
-  syntax_highlighter: rouge
 
 defaults:
   - scope:
@@ -18,11 +15,3 @@ defaults:
     values:
       lang: "fa"
       layout: "default"
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle
-
-plugins: []

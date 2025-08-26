@@ -6,14 +6,39 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>{{ page.title | default: site.title }}</title>
 
-  <!-- optional Persian webfont (remove if offline) -->
-  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;700&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
   <main>
     {{ content }}
   </main>
+
+  <!-- Client-side rewrite: turn links that point to .md into friendly URLs on the live site -->
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // base (may be "" or "/REPO-NAME")
+    var base = "{{ site.baseurl | default: '' }}";
+    // Normalize: remove trailing slash if present so base + '/' + slug works predictably
+    if (base.endsWith('/')) { base = base.slice(0, -1); }
+
+    // Find anchors that end with ".md" (exact match or with query/hash)
+    document.querySelectorAll('a[href]').forEach(function(a){
+      var href = a.getAttribute('href');
+      if (!href) return;
+      // Only process simple local .md filenames (no http(s):) to avoid messing external links
+      var isLocalMd = href.match(/^[^:?#]*\.md(?:[?#].*)?$/i);
+      if (!isLocalMd) return;
+
+      // Extract filename (strip path and any query/hash)
+      var filename = href.split(/[?#]/)[0].split('/').pop();
+      var slug = filename.replace(/\.md$/i, '');
+
+      // Build new URL using base + '/' + slug + '/'
+      var newUrl = base + '/' + slug + '/';
+      // Use absolute path (works on GitHub Pages and local Jekyll builds)
+      a.setAttribute('href', newUrl);
+    });
+  });
+  </script>
 </body>
 </html>

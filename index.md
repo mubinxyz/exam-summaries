@@ -12,8 +12,8 @@ title: "خانه"
 
 ## فهرست دروس
 
-- [آموزش و پرورش فراگیر — جبار صالح]({{ '/jabar-saleh/' | relative_url }}) — [source](jabar-saleh.md)
-- [جامعه‌شناسی — سید یاسین حسینی]({{ '/yasin-hosseini/' | relative_url }}) — [source](yasin-hosseini.md)
+- [آموزش پرورش فراگیر جبار صالح](jabar-saleh.md)
+- [جامعه‌شناسی سید یاسین حسینی](yasin-hosseini.md)
 
 ---
 

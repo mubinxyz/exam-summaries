@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "جامعه‌شناسی سید یاسین حسینی"
+lang: fa
+permalink: /yasin-hosseini/
 ---
 
 [بازگشت به خانه](index.md)
