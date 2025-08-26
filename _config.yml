@@ -1,5 +1,5 @@
-# title: "خلاصه امتحانات ترم ۸ من"
-description: "خلاصه‌های بنده برای امتحانات ترم ۸ رشته آموزش ابتدایی"
+title: "سایت من"
+description: "مجموعه‌ای از خلاصه‌ها و مطالب فارسی"
 baseurl: ""
 url: ""
 permalink: pretty
@@ -24,3 +24,5 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor/bundle
+
+plugins: []

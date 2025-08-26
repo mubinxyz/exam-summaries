@@ -2,7 +2,6 @@
 layout: default
 lang: fa
 title: "خانه"
-dir: rtl
 ---
 
 

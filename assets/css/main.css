@@ -1,0 +1,27 @@
+html[dir="rtl"], body[dir="rtl"], body {
+    direction: rtl;
+    unicode-bidi: embed;
+    text-align: right;
+    font-family: "Vazirmatn", system-ui, -apple-system, "Segoe UI", Roboto, "Noto Naskh Arabic", sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    direction: rtl;
+    margin: 1rem 0;
+    table-layout: auto;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: .5rem .6rem;
+    text-align: right;
+  }
+  
+  /* readability */
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace; font-size: .95em; }
+  pre { overflow: auto; padding: .6rem; background:#f7f7f7; border-radius:6px; }
+  
