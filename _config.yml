@@ -1,7 +1,31 @@
+# _config.yml
+title: "خلاصه امتحانات ترم ۸ من"
+description: "خلاصه‌های بنده برای امتحانات ترم ۸ رشته آموزش ابتدایی"
+baseurl: ""
+url: ""
+permalink: pretty
+
+# Enable GitHub Flavored Markdown tables for kramdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  parse_block_html: true
+  syntax_highlighter: rouge
+
+# Keep your defaults (lang: fa, layout: default)
 defaults:
   - scope:
-      path: ""           # all files in repo
-      type: "pages"      # all pages
+      path: ""
+      type: "pages"
     values:
       lang: "fa"
       layout: "default"
+
+# housekeeping
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle
+plugins: []
