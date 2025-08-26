@@ -1,5 +1,5 @@
 title: "سایت من"
-baseurl: ""   # <-- set to "/REPO-NAME" if this is a project site
+baseurl: ""   # if this is a project page (username.github.io/REPO), set this to "/REPO"
 url: ""
 permalink: pretty
 

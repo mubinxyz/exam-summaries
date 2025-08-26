@@ -2,8 +2,9 @@ html[dir="rtl"], body[dir="rtl"], body {
     direction: rtl;
     unicode-bidi: embed;
     text-align: right;
-    font-family: "Vazirmatn", system-ui, -apple-system, "Segoe UI", Roboto, "Noto Naskh Arabic", sans-serif;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Naskh Arabic", "Vazirmatn", sans-serif;
     line-height: 1.6;
+    padding: 1rem;
   }
   
   /* Tables */
@@ -14,7 +15,6 @@ html[dir="rtl"], body[dir="rtl"], body {
     margin: 1rem 0;
     table-layout: auto;
   }
-  
   th, td {
     border: 1px solid #ddd;
     padding: .5rem .6rem;
@@ -24,4 +24,6 @@ html[dir="rtl"], body[dir="rtl"], body {
   /* readability */
   code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace; font-size: .95em; }
   pre { overflow: auto; padding: .6rem; background:#f7f7f7; border-radius:6px; }
+  a { color: #0b66c3; text-decoration: none; }
+  a:hover { text-decoration: underline; }
   

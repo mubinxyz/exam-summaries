@@ -13,32 +13,33 @@
     {{ content }}
   </main>
 
-  <!-- Client-side rewrite: turn links that point to .md into friendly URLs on the live site -->
+  <!-- Rewrite .md links to friendly permalinks on the live site -->
   <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    // base (may be "" or "/REPO-NAME")
-    var base = "{{ site.baseurl | default: '' }}";
-    // Normalize: remove trailing slash if present so base + '/' + slug works predictably
-    if (base.endsWith('/')) { base = base.slice(0, -1); }
+    document.addEventListener('DOMContentLoaded', function () {
+      try {
+        var base = "{{ site.baseurl | default: '' }}";
+        if (base && base.endsWith('/')) base = base.slice(0, -1);
 
-    // Find anchors that end with ".md" (exact match or with query/hash)
-    document.querySelectorAll('a[href]').forEach(function(a){
-      var href = a.getAttribute('href');
-      if (!href) return;
-      // Only process simple local .md filenames (no http(s):) to avoid messing external links
-      var isLocalMd = href.match(/^[^:?#]*\.md(?:[?#].*)?$/i);
-      if (!isLocalMd) return;
+        document.querySelectorAll('a[href]').forEach(function(a){
+          var href = a.getAttribute('href');
+          if (!href) return;
 
-      // Extract filename (strip path and any query/hash)
-      var filename = href.split(/[?#]/)[0].split('/').pop();
-      var slug = filename.replace(/\.md$/i, '');
+          // Ignore absolute URLs (http: https: mailto:) and anchors starting with #
+          if (/^[a-zA-Z][a-zA-Z0-9+.-]*:/.test(href) || href.startsWith('#')) return;
 
-      // Build new URL using base + '/' + slug + '/'
-      var newUrl = base + '/' + slug + '/';
-      // Use absolute path (works on GitHub Pages and local Jekyll builds)
-      a.setAttribute('href', newUrl);
+          // Only rewrite simple local .md filenames (like "jabar-saleh.md" or "./jabar-saleh.md" or "dir/x.md")
+          var m = href.match(/^(?:\.\/)?([^?#\/]+)\.md(?:[?#].*)?$/i);
+          if (!m) return;
+
+          var filename = m[1];
+          var slug = filename.replace(/\.md$/i, '');
+          var newUrl = base + '/' + slug + '/';
+          a.setAttribute('href', newUrl);
+        });
+      } catch (e) {
+        console && console.error && console.error('rewrite script error', e);
+      }
     });
-  });
   </script>
 </body>
 </html>
