@@ -1,5 +1,6 @@
 ---
-layout: rtl
+layout: default
+lang: fa
 title: "خانه"
 ---
 

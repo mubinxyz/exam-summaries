@@ -1,9 +1,0 @@
-title: "خلاصه امتحانات ترم هشتم"
-description: "یادداشت‌ها و خلاصه دروس برای همکاران"
-theme: minima
-markdown: kramdown
-lang: fa
-
-# Make sure GitHub Pages processes your custom CSS
-include:
-  - assets/css/custom.css
