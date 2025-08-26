@@ -9,9 +9,9 @@ permalink: pretty
 markdown: kramdown
 kramdown:
   input: GFM
-  hard_wrap: false
-  parse_block_html: true
-  syntax_highlighter: rouge
+  # hard_wrap: false
+  # parse_block_html: true
+  # syntax_highlighter: rouge
 
 # Keep your defaults (lang: fa, layout: default)
 defaults:
