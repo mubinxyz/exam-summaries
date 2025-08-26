@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: rtl
 title: "خانه"
 ---
 
