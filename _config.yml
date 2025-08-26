@@ -12,3 +12,20 @@ kramdown:
   hard_wrap: false
   parse_block_html: true
   syntax_highlighter: rouge
+
+# Keep your defaults (lang: fa, layout: default)
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      lang: "fa"
+      layout: "default"
+
+# housekeeping
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle
+plugins: []
