@@ -4,6 +4,8 @@ title: "جامعه‌شناسی سید یاسین حسینی"
 lang: fa
 permalink: /yasin-hosseini/
 ---
+
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     
 
 [بازگشت به خانه](index.md)

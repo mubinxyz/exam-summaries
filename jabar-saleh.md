@@ -5,6 +5,8 @@ lang: fa
 permalink: /jabar-saleh/
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
 [← بازگشت به خانه](index.md)
 
 

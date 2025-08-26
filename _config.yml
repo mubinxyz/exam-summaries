@@ -1,5 +1,5 @@
 title: "خلاصه‌ها"
-theme: minima
+theme: minima   # or any theme you use
 
 defaults:
   - scope:
@@ -8,7 +8,3 @@ defaults:
     values:
       layout: default
       lang: fa
-
-# Custom CSS
-sass:
-  style: compressed
