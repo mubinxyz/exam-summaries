@@ -53,7 +53,7 @@ table {
   display: block;                /* block + scroll */
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  white-space: nowrap;           /* prevent ugly wrapping on small screens */
+  white-space: normal;           /* prevent ugly wrapping on small screens */
 }
 
 th, td {
