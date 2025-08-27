@@ -8,10 +8,10 @@ body {
   font-size: 1rem;
   color: #222;
   background-color: #fff;
-  margin: 0;
-  padding: 0;
   direction: rtl;
   text-align: right;
+  padding: 0;   /* no margin/padding for body */
+  margin: 1.4;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -44,14 +44,16 @@ a:hover {
 =========================== */
 
 .table-wrapper {
-  overflow-x: auto;  /* scroll on mobile */
+  overflow-x: auto;  /* enables horizontal scroll on mobile */
+  -webkit-overflow-scrolling: touch; /* smooth scroll iOS */
 }
 
 table {
   width: 100%;               /* full width */
-  border-collapse: collapse; /* remove double borders */
+  border-collapse: collapse; /* merge borders */
   margin: 1.5rem 0;
   font-size: 1rem;
+  min-width: 600px;          /* ensures columns don’t shrink too much */
 }
 
 th, td {
