@@ -10,8 +10,7 @@ body {
   background-color: #fff;
   direction: rtl;
   text-align: right;
-  padding: 0;   /* no margin/padding for body */
-  margin: 1.4;
+  margin: 1.5rem; /* restored readability margin */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,26 +39,43 @@ a:hover {
 }
 
 /* ===========================
-   Tables
+   Tables (responsive)
 =========================== */
 
+/* Preferred: wrap Markdown tables with <div class="table-wrapper">...</div> */
 .table-wrapper {
-  overflow-x: auto;  /* enables horizontal scroll on mobile */
-  -webkit-overflow-scrolling: touch; /* smooth scroll iOS */
+  overflow-x: auto;              /* horizontal scroll on small screens */
+  -webkit-overflow-scrolling: touch;
 }
 
+/* Keep tables readable and full-width */
 table {
-  width: 100%;               /* full width */
-  border-collapse: collapse; /* merge borders */
+  width: 100%;
+  border-collapse: collapse;
   margin: 1.5rem 0;
   font-size: 1rem;
-  min-width: 600px;          /* ensures columns don’t shrink too much */
+}
+
+/* If a table isn't wrapped, make it scroll only on small screens */
+@media (max-width: 768px) {
+  table {
+    display: block;              /* enables overflow-x on small screens */
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    /* optional: prevent columns from collapsing too much */
+    white-space: nowrap;
+  }
+}
+
+/* If wrapped, enforce a sensible minimum width for columns */
+.table-wrapper table {
+  min-width: 600px;
 }
 
 th, td {
   border: 1px solid #ccc;
   padding: 0.6rem 0.75rem;
-  text-align: right; /* RTL-friendly */
+  text-align: right;             /* RTL-friendly */
   vertical-align: top;
 }
 
