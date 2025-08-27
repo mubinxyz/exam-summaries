@@ -23,15 +23,15 @@ h1, h2, h3, h4, h5, h6 {
 /* Unordered and Ordered Lists */
 ul, ol {
   padding-right: 1.5rem; /* Adds space from the right edge */
-  margin-right: 1rem;    /* Separates from surrounding content */
-  margin-bottom: 1rem;   /* Adds spacing below the list */
+  margin-right: .6rem;    /* Separates from surrounding content */
+  margin-bottom: .6rem;   /* Adds spacing below the list */
   list-style-position: inside; /* Keeps bullets/numbers inside the padding */
 }
 
 /* List Items */
 li {
-  padding-right: 0.5rem; /* Indents each item slightly */
-  margin-bottom: 0.5rem; /* Adds space between items */
+  padding-right: 0.4rem; /* Indents each item slightly */
+  margin-bottom: 0.4rem; /* Adds space between items */
 }
 
 /* Optional: Better bullets for RTL */
