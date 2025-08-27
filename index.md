@@ -4,7 +4,6 @@ lang: fa
 title: "خانه"
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
 # خلاصه امتحانات ترم هشتم آموزش ابتدایی
 
