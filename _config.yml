@@ -1,3 +1,6 @@
+url: "https://mubinxyz.github.io"
+baseurl: "/exam-summaries"
+
 title: "خلاصه امتحانات"  
 description: "خلاصه امتحانات ترم هشتم"
 theme: minima   # or any theme you use
