@@ -1,4 +1,33 @@
 /* ===========================
+   Theme Variables
+=========================== */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #222222;
+  --link-color: #0066cc;
+  --link-hover: #004c99;
+  --table-border: #ccc;
+  --table-header-bg: #f5f5f5;
+  --code-bg: #f7f7f7;
+  --footer-color: #666;
+  --footer-border: #eee;
+}
+
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --link-color: #4dabf7;
+  --link-hover: #82cfff;
+  --table-border: #333;
+  --table-header-bg: #1f1f1f;
+  --code-bg: #1e1e1e;
+  --footer-color: #999;
+  --footer-border: #333;
+}
+
+
+
+/* ===========================
    Global Styles
 =========================== */
 
@@ -6,8 +35,8 @@ body {
   font-family: "Vazirmatn", Tahoma, sans-serif;
   line-height: 1.8;
   font-size: 1rem;
-  color: #222;
-  background-color: #fff;
+  color: var(--text-color);
+  background-color: var(--bg-color);
   direction: rtl;
   text-align: right;
   margin: 1.2rem;
@@ -31,14 +60,14 @@ ul, ol {
 =========================== */
 
 a {
-  color: #0066cc;
+  color: var(--link-color);
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #004c99;
+  color: var(--link-hover);
 }
 
 /* ===========================
@@ -57,14 +86,14 @@ table {
 }
 
 th, td {
-  border: 1px solid #ccc;
+  border: 1px solid var(--table-border);
   padding: 0.6rem 0.75rem;
   text-align: right;             /* RTL-friendly */
   vertical-align: top;
 }
 
 th {
-  background-color: #f5f5f5;
+  background-color: var(--table-header-bg);
   font-weight: bold;
 }
 
@@ -74,7 +103,7 @@ th {
 
 code, pre {
   font-family: "Fira Code", monospace;
-  background: #f7f7f7;
+  background: var(--code-bg);
   border-radius: 4px;
   font-size: 0.95rem;
 }
