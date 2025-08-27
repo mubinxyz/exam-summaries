@@ -5,6 +5,27 @@ lang: fa
 permalink: /yasin-hosseini/
 ---
 
+<button class="theme-toggle">🌙</button>
+<script>
+  const currentTheme = localStorage.getItem('theme') ||
+    (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+
+  document.documentElement.setAttribute('data-theme', currentTheme);
+
+  document.querySelectorAll('.theme-toggle').forEach(btn => {
+    btn.textContent = currentTheme === 'dark' ? '☀️' : '🌙';
+    btn.addEventListener('click', () => {
+      const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', theme);
+      document.querySelectorAll('.theme-toggle').forEach(b => {
+        b.textContent = theme === 'dark' ? '☀️' : '🌙';
+      });
+    });
+  });
+</script>
+
+
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     
 

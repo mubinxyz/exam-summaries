@@ -105,3 +105,22 @@ pre {
 .site-footer p {
   margin: 0;
 }
+
+.theme-toggle {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 999;
+  background: var(--code-bg);
+  color: var(--text-color);
+  border: 1px solid var(--table-border);
+  border-radius: 8px;
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background 0.3s, color 0.3s;
+}
+
+.theme-toggle:hover {
+  background: var(--table-header-bg);
+}
