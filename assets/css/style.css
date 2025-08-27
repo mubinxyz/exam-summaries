@@ -10,7 +10,7 @@ body {
   background-color: #fff;
   direction: rtl;
   text-align: right;
-  margin: 1.5rem; /* restored readability margin */
+  margin: 1.5rem; /* margin for readability */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -39,37 +39,18 @@ a:hover {
 }
 
 /* ===========================
-   Tables (responsive)
+   Tables (responsive, no HTML wrapper needed)
 =========================== */
 
-/* Preferred: wrap Markdown tables with <div class="table-wrapper">...</div> */
-.table-wrapper {
-  overflow-x: auto;              /* horizontal scroll on small screens */
-  -webkit-overflow-scrolling: touch;
-}
-
-/* Keep tables readable and full-width */
 table {
   width: 100%;
   border-collapse: collapse;
   margin: 1.5rem 0;
   font-size: 1rem;
-}
-
-/* If a table isn't wrapped, make it scroll only on small screens */
-@media (max-width: 768px) {
-  table {
-    display: block;              /* enables overflow-x on small screens */
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    /* optional: prevent columns from collapsing too much */
-    white-space: nowrap;
-  }
-}
-
-/* If wrapped, enforce a sensible minimum width for columns */
-.table-wrapper table {
-  min-width: 600px;
+  display: block;                /* block + scroll */
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;           /* prevent ugly wrapping on small screens */
 }
 
 th, td {
@@ -106,15 +87,21 @@ pre {
 }
 
 /* ===========================
-   Lists
+   Lists (readability improved)
 =========================== */
 
 ul, ol {
-  margin: 0 0 1.25rem 1.25rem;
+  margin: 0 0 1.25rem 1.5rem; /* extra left indent for readability */
   padding: 0;
 }
 
 li {
+  margin-bottom: 0.6rem;        /* space between items */
+  line-height: 1.7;
+}
+
+ul ul, ol ol {
+  margin-top: 0.5rem;           /* nested lists tighter */
   margin-bottom: 0.5rem;
 }
 
