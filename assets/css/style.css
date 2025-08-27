@@ -87,25 +87,6 @@ pre {
 }
 
 /* ===========================
-   Lists (readability improved)
-=========================== */
-
-ul, ol {
-  margin: 0 0 1.25rem 1.5rem; /* extra left indent for readability */
-  padding: 0;
-}
-
-li {
-  margin-bottom: 0.6rem;        /* space between items */
-  line-height: 1.7;
-}
-
-ul ul, ol ol {
-  margin-top: 0.5rem;           /* nested lists tighter */
-  margin-bottom: 0.5rem;
-}
-
-/* ===========================
    Footer (optional override)
 =========================== */
 
