@@ -7,6 +7,8 @@ permalink: /jabar-saleh/
 
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
+[بازگشت به خانه](index.md)
+
 # 📘 خلاصه درس اول – آموزش فراگیرسازی (سؤال و جواب)
 
 ## تعریف و مفاهیم پایه
