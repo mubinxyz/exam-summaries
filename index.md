@@ -12,6 +12,7 @@ title: "خانه"
 
 ## فهرست دروس
 
+- [جبار۳](jabar3.md)
 - [آ.پ فراگیر جبار صالح نسخه بهتر](jabar-saleh-enhanced.md)
 - [چند پایه فرجی](faragi-arya.md)
 - [آموزش پرورش فراگیر جبار صالح](jabar-saleh.md)
