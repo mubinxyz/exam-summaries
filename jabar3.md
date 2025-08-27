@@ -1,3 +1,12 @@
+---
+layout: default
+title: "آموزش و پرورش فراگیر جبار صالح"
+lang: fa
+permalink: /jabar3/
+---
+
+
+[بازگشت به خانه](index.md)
 
 
 
