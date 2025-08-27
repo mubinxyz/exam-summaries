@@ -61,7 +61,6 @@ th, td {
   padding: 0.6rem 0.75rem;
   text-align: right;             /* RTL-friendly */
   vertical-align: top;
-  word-break: break-word;
 }
 
 th {
