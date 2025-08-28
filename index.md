@@ -12,6 +12,7 @@ title: "خانه"
 
 ## فهرست دروس
 
+- [برنامه ریزی چند پایه صمدی خلیل](mod-khalil.md)
 - [resane azad](resane-azad.md)
 - [medya](medya.md)
 - [jabar4](jabar4.md)
