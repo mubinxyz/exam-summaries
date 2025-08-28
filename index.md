@@ -12,6 +12,7 @@ title: "خانه"
 
 ## فهرست دروس
 
+- [jabar4](jabar4.md)
 - [چند پایه فرجی](faragi-arya.md)
 - [آموزش پرورش فراگیر جبار صالح](jabar-saleh.md)
 - [جامعه‌شناسی سید یاسین حسینی](yasin-hosseini.md)
