@@ -12,6 +12,7 @@ title: "خانه"
 
 ## فهرست دروس
 
+- [resane azad](resane-azad.md)
 - [medya](medya.md)
 - [jabar4](jabar4.md)
 - [چند پایه فرجی](faragi-arya.md)
