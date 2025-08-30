@@ -14,7 +14,7 @@
 }
 
 [data-theme="dark"] {
-  --bg-color: #121212;
+  --bg-color: #0f0f0f;
   --text-color: #e0e0e0;
   --link-color: #4dabf7;
   --link-hover: #82cfff;
