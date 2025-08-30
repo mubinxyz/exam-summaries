@@ -30,20 +30,26 @@
 =========================== */
 
 body {
-  font-family: "Vazirmatn", Tahoma, sans-serif;
-  line-height: 1.5;
+  font-family: "Vazirmatn", sans-serif;
+  line-height: 1.55;
   font-size: 1rem;
   color: var(--text-color);
   background-color: var(--bg-color);
   direction: rtl;
   text-align: right;
   margin: 1.4rem;
+
+  /* Font rendering improvements */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "liga", "kern";
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   margin-block: 1.5rem 0.75rem;
-  line-height: 1.4;
+  line-height: 1.35;
 }
 
 ul, ol {
@@ -76,16 +82,16 @@ table {
   border-collapse: collapse;
   margin: 1.5rem 0;
   font-size: 1rem;
-  display: block;                /* block + scroll */
+  display: block;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  white-space: normal;           /* prevent ugly wrapping on small screens */
+  white-space: normal;
 }
 
 th, td {
   border: 1px solid var(--table-border);
   padding: 0.6rem 0.75rem;
-  text-align: right;             /* RTL-friendly */
+  text-align: right;
   vertical-align: top;
 }
 
@@ -158,10 +164,10 @@ pre {
 /* Medium screens (tablets, small laptops) */
 @media (min-width: 768px) {
   body {
-    font-size: 1.05rem;   /* slightly bigger text */
-    line-height: 1.7;     /* more breathing room */
+    font-size: 1.05rem;
+    line-height: 1.6;
     margin: 2rem auto;
-    max-width: 50rem;     /* limit width for readability */
+    max-width: 50rem;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -176,10 +182,10 @@ pre {
 /* Large screens (laptops, desktops) */
 @media (min-width: 1200px) {
   body {
-    font-size: 1.1rem;    /* bump font for larger screens */
-    line-height: 1.8;
+    font-size: 1.1rem;
+    line-height: 1.65;   /* adjusted for better readability */
     margin: 3rem auto;
-    max-width: 65ch;      /* ideal readable line length */
+    max-width: 65ch;
   }
 
   p, li {
