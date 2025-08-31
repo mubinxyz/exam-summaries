@@ -195,34 +195,26 @@ pre {
 
 
 /* ===========================
-   Images (responsive & text-friendly)
+   Images (responsive, text-width)
 =========================== */
 
-/* Default inline images (icons, small pictures) */
 img {
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle; /* keeps inline text aligned */
-  border-radius: 4px;
-}
-
-/* Standalone images (inside paragraphs or figures) */
-p > img,
-figure img {
   display: block;
-  margin: 1.2rem auto;  /* center and add spacing */
-  border-radius: 6px;
-}
-
-/* Figures with captions */
-figure {
-  display: block;
-  text-align: center;
+  max-width: 100%;   /* never overflow container */
+  height: auto;      /* keep aspect ratio */
   margin: 1.5rem auto;
+  border-radius: 6px; /* optional: smooth corners */
+}
+
+figure {
+  margin: 1.5rem auto;
+  max-width: 100%;
+  text-align: center;
 }
 
 figcaption {
   font-size: 0.9rem;
   color: var(--footer-color);
   margin-top: 0.5rem;
+  line-height: 1.4;
 }
