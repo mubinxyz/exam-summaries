@@ -192,3 +192,37 @@ pre {
     margin-bottom: 1rem;
   }
 }
+
+
+/* ===========================
+   Images (responsive & clean)
+=========================== */
+
+img {
+  max-width: 100%;   /* prevents overflow on small screens */
+  height: auto;      /* keeps aspect ratio */
+  display: block;    /* removes inline whitespace gap */
+  margin: 1.2rem auto; /* centers images & adds spacing */
+  border-radius: 8px; /* smooth corners */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08); /* subtle shadow */
+}
+
+/* Optional: for images inside links (like previews) */
+a img {
+  border: none;
+  box-shadow: none;
+  transition: transform 0.2s ease;
+}
+
+a img:hover {
+  transform: scale(1.02); /* small hover effect */
+}
+
+/* Larger screens — give images more breathing space */
+@media (min-width: 1200px) {
+  img {
+    margin: 1.5rem auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  }
+}

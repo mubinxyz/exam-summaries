@@ -22,6 +22,7 @@ permalink: /salamat-shakari/
 - [بخش 2 - درس 3](#2-3)
 - [بخش 2 - درس 4](#2-4)
 - [بخش 2 - درس 5](#2-5)
+- [پیوست‌ها (تصاویر کتاب)](#پیوست‌ها)
 
 # 1-1
 ### مفاهیم و تعاریف بهداشت و شاخص‌های بهداشتی
@@ -2427,3 +2428,72 @@ permalink: /salamat-shakari/
  - **دفن بهداشتی (Landfilling):** در این روش، زباله در گودال ریخته شده، فشرده می‌شود و با لایه‌ای از خاک به ضخامت حدود ۲۰ سانتی‌متر پوشانده می‌شود. این فرآیند لایه‌ای تکرار می‌شود تا گودال پر شود و زباله به کود تبدیل گردد. محل دفن باید کاملاً از شهر و روستا دور باشد.
 
  - **کمپوست (Composting):** در این روش، مواد غیرقابل تجزیه مانند فلز، پلاستیک و شیشه از زباله جدا می‌شوند. باقی‌مانده خرد شده و برای تجزیه وارد مخزن می‌شود تا پس از تخمیر و خشک شدن، به کود تبدیل و بسته‌بندی شود.
+
+
+ # پیوست‌ها
+
+![تصویر 0](assets/img/salamat-shakari/0.jpg)  
+*تصویر 0*
+
+![تصویر 1](assets/img/salamat-shakari/1.jpg)  
+*تصویر 1*
+
+![تصویر 2](assets/img/salamat-shakari/2.jpg)  
+*تصویر 2*
+
+![تصویر 3](assets/img/salamat-shakari/3.png)  
+*تصویر 3*
+
+![تصویر 4](assets/img/salamat-shakari/4.jpg)  
+*تصویر 4*
+
+![تصویر 5](assets/img/salamat-shakari/5.png)  
+*تصویر 5*
+
+![تصویر 6](assets/img/salamat-shakari/6.png)  
+*تصویر 6*
+
+![تصویر 7](assets/img/salamat-shakari/7.jpg)  
+*تصویر 7*
+
+![تصویر 8](assets/img/salamat-shakari/8.jpg)  
+*تصویر 8*
+
+![تصویر 9](assets/img/salamat-shakari/9.jpg)  
+*تصویر 9*
+
+![تصویر 10](assets/img/salamat-shakari/10.jpg)  
+*تصویر 10*
+
+![تصویر 15](assets/img/salamat-shakari/15.jpg)  
+*تصویر 15*
+
+![تصویر 25](assets/img/salamat-shakari/25.jpg)  
+*تصویر 25*
+
+![تصویر 33](assets/img/salamat-shakari/33.png)  
+*تصویر 33*
+
+![تصویر 34](assets/img/salamat-shakari/34.jpg)  
+*تصویر 34*
+
+![تصویر 35](assets/img/salamat-shakari/35.png)  
+*تصویر 35*
+
+![تصویر 36](assets/img/salamat-shakari/36.png)  
+*تصویر 36*
+
+![تصویر 39](assets/img/salamat-shakari/39.png)  
+*تصویر 39*
+
+![تصویر 41](assets/img/salamat-shakari/41.jpg)  
+*تصویر 41*
+
+![تصویر 42](assets/img/salamat-shakari/42.jpg)  
+*تصویر 42*
+
+![تصویر 43](assets/img/salamat-shakari/43.jpg)  
+*تصویر 43*
+
+![تصویر 44](assets/img/salamat-shakari/44.jpg)  
+*تصویر 44*
