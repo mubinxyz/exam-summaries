@@ -200,10 +200,16 @@ pre {
 
 img {
   display: block;
-  max-width: 100%;   /* never overflow container */
-  height: auto;      /* keep aspect ratio */
+  max-width: 80%;   /* make images smaller than text width */
+  height: auto;     /* keep aspect ratio */
   margin: 1.5rem auto;
-  border-radius: 6px; /* optional: smooth corners */
+  border-radius: 6px;
+}
+
+@media (min-width: 1200px) {
+  img {
+    max-width: 60%;  /* on big screens, keep images smaller */
+  }
 }
 
 figure {
