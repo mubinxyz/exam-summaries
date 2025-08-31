@@ -2,7 +2,7 @@
 layout: default
 title: "سلامت و بهداشت شه‌کێری"
 lang: fa
-permalink: /salamat-shakari-2/
+permalink: /salamat-shakar/
 ---
 
 
