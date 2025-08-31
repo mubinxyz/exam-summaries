@@ -2,11 +2,19 @@
 layout: default
 title: "سلامت و بهداشت شه‌کێری"
 lang: fa
-permalink: /salamat-shakari/
+permalink: /salamat-shakari-2/
 ---
 
 
 [بازگشت به خانه](index.md)
+
+
+**[برای مطالعه خلاصه کوتاه‌تر اینجا لینک کلیک کنید.](salamat-shakari2.md)**
+
+
+
+
+
 
 ## فهرست مطالب
 
