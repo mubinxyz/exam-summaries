@@ -12,6 +12,8 @@ title: "خانه"
 
 ## فهرست دروس
 
+
+- [سلامت بهداشت شکری](salamat-shakari.md)
 - [mobin khapa summary](mobin-khapa.md)
 - [برنامه ریزی چند پایه صمدی خلیل](mod-khalil.md)
 - [resane azad](resane-azad.md)
