@@ -9,7 +9,7 @@ permalink: /salamat-shakari/
 [بازگشت به خانه](index.md)
 
 
-**[برای خلاصه مفصل‌تر کلیک کنید.](salamat-shakari.md)**
+**[برای خلاصه مفصل‌تر اینجا کلیک کنید.](salamat-shakari.md)**
 
 
 
