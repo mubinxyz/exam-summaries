@@ -2,7 +2,7 @@
 layout: default
 title: "خلاصه مبین خه‌په"
 lang: fa
-permalink: /mobin-khapa/
+permalink: /mobin-khapa2/
 ---
 
 
